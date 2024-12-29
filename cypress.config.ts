@@ -8,6 +8,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config)
     },
-    baseUrl: 'https://demoqa.com/',
+    baseUrl: 'http://nginx-hello.local',
   },
 })
